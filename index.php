@@ -77,7 +77,7 @@ function answerResponse($word){
 <div class="prizebox">
 <svg class="swing-in-top-bck">
     <g>
-  <rect x="" y="0" width="180" height="180" style="fill:#a1d983"/>
+  <rect x="0" y="20" width="180" height="180" style="fill:#a1d983"/>
   <text x="10" y="70" font-family="Verdana" font-size="20" fill="blue">Pick a prize</text>
   <text x="10" y="120" font-family="Verdana" font-size="20" fill="blue">out of the box :)</text>
   </g>
