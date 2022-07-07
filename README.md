@@ -1,5 +1,5 @@
-#Crack the Cube\
-######The Hangman style word guessing game\
+# Crack the Cube\
+###### The Hangman style word guessing game\
 <sub>Currently v1.0</sub>
 
 **Changes to be made:**\
