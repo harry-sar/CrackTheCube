@@ -1,0 +1,3 @@
+Motherboard:The core component they combines everything in the computer
+CMOS:This component keeps the BIOS settings persistent & keeps system time
+CPU:The main powerhouse of the computer
