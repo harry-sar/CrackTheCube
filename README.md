@@ -5,4 +5,4 @@
 **Changes to be made:**\
 ~ Add more choices\
 ~ OOPify the whole game\
-~ Unify the completion animation and cube spin animation\
+~ Unify the completion animation and cube spin animation
