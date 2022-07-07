@@ -15,6 +15,12 @@ function SetContent(){
 </div>
 BOX;
     $Content = <<< CONTENT
+<head>
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0">
+<title>LJMU MC SOC</title>
+<link rel="icon" href="https://www.bucs.org.uk/static/b52f32ab-9a28-4f41-ab2b633c387c924a/company_logo_b5d466fa1eb899dc2dfc8a63ad3a41ee/Liverpool-John-Moores.png">
+</head>
+
 <img src="assets/LJMU-Logo.jpg" class="LJMUlogo">
 <h1>Welcome to Crack the cube</h1>
 <p>Try to guess the Computer Science related word to win a prize!</p>
