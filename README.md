@@ -6,4 +6,3 @@
 ~ Add more choices\
 ~ OOPify the whole game\
 ~ Unify the completion animation and cube spin animation\
-~ Create a mobile oriented view
