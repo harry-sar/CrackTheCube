@@ -1,7 +1,16 @@
 <style>
 
+.logoTop{
+    display: flex;
+    align-items: center;
+}
+
+.logoTop2{
+    margin-left:20px;
+}
 h1{
     color:teal;
+    font-size: 30px;
 }
 p{
     color: black;
@@ -29,7 +38,7 @@ body{
 }
 .prizebox{
     position: absolute;
-    margin:160px auto 0 auto;
+    margin:260px auto 0 auto;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
@@ -55,8 +64,13 @@ body{
     height: 180px;
 }
 
+.Author{
+    margin-left:20px;
+    font-size: 12px;
+}
+
 .LJMUlogo{
-    width: 250px;
+    width: 175px;
     height: auto;
 }
 

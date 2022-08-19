@@ -17,16 +17,20 @@ BOX;
     $Content = <<< CONTENT
 <head>
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0">
-<title>LJMU MC SOC</title>
+<title>LJMU CS SOC</title>
 <link rel="icon" href="https://www.bucs.org.uk/static/b52f32ab-9a28-4f41-ab2b633c387c924a/company_logo_b5d466fa1eb899dc2dfc8a63ad3a41ee/Liverpool-John-Moores.png">
 </head>
-
+<div class="logoTop">
 <img src="assets/LJMU-Logo.jpg" class="LJMUlogo">
-<h1>Welcome to Crack the cube</h1>
+<strong><p class="Author">Made by Harry.S</p></strong>
+<h4 class="logoTop2"><a href="https://www.jmsu.co.uk/groups/computer-science-84d5">https://www.jmsu.co.uk/groups/computer-science-84d5</a></h4>
+</div>
+<h1 class="logoTop3">Welcome to Crack the cube</h1>
 <p>Try to guess the Computer Science related word to win a prize!</p>
 {$Box}
 <br><br><br>
 <h1>Your hint is:</h1>
+<p><strong>{$GLOBALS["answer"]}</strong></p>
 CONTENT;
     return $Content;
 }
@@ -174,10 +178,8 @@ $Done=GetLengthWord($ArrWords,$_SESSION["randomIndex"]);
 $textbox=GenTextBox($Done);
 
 echo $EchoMe;
-echo "{$textbox[0]}<br><br>";
+echo "{$textbox[0]}";
 echo $textbox[2];
-echo $GLOBALS["answer"];
-
 
 importFromFile();
 

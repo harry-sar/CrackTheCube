@@ -1,3 +1,5 @@
-Motherboard:The core component they combines everything in the computer
+Motherboard:The core component that combines everything in the computer
 CMOS:This component keeps the BIOS settings persistent & keeps system time
 CPU:The main powerhouse of the computer
+GPU:The component that runs computation in parallel
+Power Supply:The component that powers the system
